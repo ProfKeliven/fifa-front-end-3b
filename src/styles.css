@@ -1,0 +1,31 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .signup-container, .login-container, .home-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  nav a {
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .signup-container, .login-container, .home-container {
+      width: 90%;
+    }
+  }
+  
